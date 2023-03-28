@@ -1,21 +1,13 @@
-/* CSS for element holder */
 .holder {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh; /* assuming you want to center the item vertically too */
 }
 
-/* CSS for item-1 */
 .item-1 {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
-  color: white;
-  text-align: center;
-  font-size: 24px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  /* styles for item-1 */
+	position:relative;
+
+
 }
